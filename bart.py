@@ -1,6 +1,6 @@
 # Import necessary libraries
 import streamlit as st
-import pytorch
+import torch
 from transformers import BartTokenizer, BartForConditionalGeneration
 from PyPDF2 import PdfReader
 
